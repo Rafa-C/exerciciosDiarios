@@ -1,11 +1,13 @@
 package CadastroPet;
 
 public class Pet {
+    //lebrando que essa primeira parte são os atributos
    private String nome;
    private String especie;
    private String raca;
    private int idade;
    private String cor;
+   //Aqui chamamos a classe resposavel, já que o dono vem dela
    private Responsavel dono;
    private String tipoCuidado;
 
@@ -18,7 +20,7 @@ public class Pet {
         this.dono = dono;
         this.tipoCuidado = tipoCuidado;
     }
-
+        //criamos essa classe, por causa dos varios tipos de tratamento
     public enum TiposCuidado{
         BanhoETosa,
         Vacina,
